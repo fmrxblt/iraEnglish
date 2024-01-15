@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@each $key, $val in $borders-radius {
+    .b-radius-#{$key} {
+        border-radius: $val;
+    }
+}
+
+@each $key, $val in $colors {
+    .bg-#{$key} {
+        background-color: $val;
+      }
+
+    .color-#{$key} {
+        color: $val;
+    }
+
+    
+}
+
+
+
+@include lg {
+    .d-flex {
+        display: flex;
+    }
+    
+    .d-flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .d-flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @each $key1, $val1 in $type-margin {
+        @each $key2, $val2 in $margins {
+            .#{$key1}-#{$key2} {
+                #{$val1} : $val2;
+            }
+        }
+        
+    }
+    
+    @each $key, $val in $width {
+        .w#{$key} {
+            width: $val;
+        }
+    }
+    
+    @each $key, $val in $height {
+        .h#{$key} {
+            height: $val;
+        }
+    }
+    
+    @each $key, $val in $height-px {
+        .hpx-#{$key} {
+            height: $val;
+        }
+    }
+    
+    @each $key, $val in $font-size {
+        .fs-#{$key} {
+            font-size: $val;
+        }
+    }
+    
+    .justf-content-center {
+        justify-content: center;
+    }
+    
+    .justf-content-btwn {
+        justify-content: space-between;
+    }
+    
+    .d-block {
+        display: block;
+    }
+    
+    .line-height3 {
+        line-height: 30px;
+    }
+    
+    .d-none {
+        display: none;
+    }
+    
+    .algn-itm-center {
+        align-items: center;
+    }
+    
+    .txt-algn-center {
+        text-align: center;
+    }
+    
+    .txt-algn-start {
+        text-align: start;
+    }
+    
+    .txt-algn-end{
+        text-align: end;
+        
+    }
+    
+    .algn-itm-f-end {
+        align-items: flex-end;
+    }
+    
+    .txt-algn-left {
+        text-align: left;
+    }
+    
+    .txt-trnfrm-uprcase {
+        text-transform: uppercase;
+    }
+    
+    .transition {
+        transition: all 0.3s linear; 
+    }
+    
+    .justf-content-spc-evenly {
+        justify-content: space-evenly;
+    }
+    
+    .justf-content-spc-around {
+        justify-content: space-around;
+    }
+    
+    .txt-dicr-none {
+        text-decoration: none;
+    }
+
+}
+
+@include sm {
+    .d-flex-sm {
+        display: flex;
+    }
+    
+    .d-flex-row-sm {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .d-flex-column-sm {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @each $key1, $val1 in $type-margin {
+        @each $key2, $val2 in $margins {
+            .#{$key1}-#{$key2}-sm {
+                #{$val1} : $val2;
+            }
+        }
+        
+    }
+    
+    @each $key, $val in $width {
+        .w#{$key}-sm {
+            width: $val;
+        }
+    }
+    
+    @each $key, $val in $height {
+        .h#{$key}-sm {
+            height: $val;
+        }
+    }
+    
+    @each $key, $val in $height-px {
+        .hpx-#{$key}-sm {
+            height: $val;
+        }
+    }
+    
+    @each $key, $val in $font-size {
+        .fs-#{$key}-sm {
+            font-size: $val;
+        }
+    }
+    
+    .justf-content-center-sm {
+        justify-content: center;
+    }
+    
+    .justf-content-btwn-sm {
+        justify-content: space-between;
+    }
+    
+    .d-block-sm {
+        display: block;
+    }
+    
+
+    
+    .d-none-sm {
+        display: none;
+    }
+    
+    .algn-itm-center-sm {
+        align-items: center;
+    }
+    
+    .txt-algn-center-sm {
+        text-align: center;
+    }
+    
+    .txt-algn-start-sm {
+        text-align: start;
+    }
+    
+    .txt-algn-end-sm{
+        text-align: end;
+        
+    }
+    
+    .algn-itm-f-end-sm {
+        align-items: flex-end;
+    }
+    
+    .txt-algn-left-sm {
+        text-align: left;
+    }
+    
+    .txt-trnfrm-uprcase-sm {
+        text-transform: uppercase;
+    }
+    
+    .transition-sm {
+        transition: all 0.3s linear; 
+    }
+    
+    .justf-content-spc-evenly-sm {
+        justify-content: space-evenly;
+    }
+    
+    .justf-content-spc-around-sm {
+        justify-content: space-around;
+    }
+    
+    .txt-dicr-none-sm {
+        text-decoration: none;
+    }
+}

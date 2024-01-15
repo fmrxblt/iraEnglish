@@ -1,0 +1,163 @@
+//---------------colors----------------
+
+$grey: #B6BEBD !default;
+$grey2: #9E9EA2 !default;
+$pink: #fbc6cc !default;
+$pink2: #dfa2a9 !default;
+$black: #000 !default;
+$white: #fff !default;
+
+
+$colors: (
+    'grey': $grey,
+    'grey2': $grey2,
+    'pink': $pink,
+    'pink2': $pink2,
+    'black': $black,
+    'white': $white,
+);
+
+//-------------margins-----------------
+
+$m-auto: auto !default;
+$m0: 0px !default;
+$m1: 10px !default;
+$m2: 20px !default;
+$m3: 30px !default;
+$m4: 40px !default;
+$m5: 50px !default;
+$m6: 60px !default;
+$m7: 70px !default;
+$m8: 80px !default;
+$m9: 90px !default;
+$m10: 100px !default;
+
+$m: margin !default;
+$mt: margin-top !default;
+$mr: margin-right !default;
+$mb: margin-bottom !default;
+$ml: margin-left !default;
+
+$type-margin: (
+    'm': $m,
+    'mt': $mt,
+    'mr': $mr,
+    'mb': $mb,
+    'ml': $ml,
+);
+
+$margins: (
+    'auto': $m-auto,
+    '0': $m0,
+    '1': $m1, 
+    '2': $m2,
+    '3': $m3,
+    '4': $m4,
+    '5': $m5,
+    '6': $m6,
+    '7': $m7,
+    '8': $m8,
+    '9': $m9,
+    '10': $m10,
+);
+
+//------------------border-radius-------------------
+
+$b-radius-05: 5px !default;
+$b-radius-1: 10px !default;
+$b-radius-2: 20px !default;
+$b-radius-3: 70px !default;
+
+$borders-radius: (
+    "05": $b-radius-05,
+    "1": $b-radius-1,
+    "2": $b-radius-2,
+    "3": $b-radius-3,
+);
+
+
+//--------------------width ----------------------
+
+$w1: 10% !default;
+$w2: 20% !default;
+$w3: 30% !default;
+$w4: 40% !default;
+$w5: 50% !default;
+$w6: 60% !default;
+$w7: 70% !default;
+$w8: 80% !default;
+$w9: 90% !default;
+$w10: 100% !default;
+
+$width: (
+    "1" : $w1,
+    "2" : $w2,
+    "3" : $w3,
+    "4" : $w4,
+    "5" : $w5,
+    "6" : $w6,
+    "7" : $w7,
+    "8" : $w8,
+    "9" : $w9,
+    "10" : $w10,
+);
+
+//----------------height---------------------
+
+$h1: 10% !default;
+$h2: 20% !default;
+$h3: 30% !default;  
+$h4: 40% !default;
+$h5: 50% !default;
+$h6: 60% !default;
+$h7: 70% !default;
+$h8: 80% !default;
+$h9: 90% !default;
+$h10: 100% !default;
+$h-auto: auto !default;
+
+$height: (
+    "1" : $h1,
+    "2" : $h2,
+    "3" : $h3,
+    "4" : $h4,
+    "5" : $h5,
+    "6" : $h6,
+    "7" : $h7,
+    "8" : $h8,
+    "9" : $h9,
+    "10" : $h10,
+    "-auto" : $h-auto,
+);
+
+$hpx-1: 70.83px !default;
+$hpx-2: 230px !default;
+$hpx-3: 500px !default;
+
+$height-px: (
+    "1" : $hpx-1,
+    "2" : $hpx-2,
+    "3" : $hpx-3,
+);
+
+//-----------------font-size--------------
+
+$fs-1 : 14px !default;
+$fs-2 : 16px !default;
+$fs-3 : 18px !default;
+$fs-4 : 20px !default;
+$fs-5 : 25px !default;
+$fs-6 : 35px !default;
+$fs-7 : 50px !default;
+
+$font-size: (
+    "1" : $fs-1,
+    "2" : $fs-2,
+    "3" : $fs-3,
+    "4" : $fs-4,
+    "5" : $fs-5,
+    "6" : $fs-6,
+    "7" : $fs-7,
+);
+
+
