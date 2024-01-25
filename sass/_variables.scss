@@ -4,6 +4,7 @@ $grey: #B6BEBD !default;
 $grey2: #9E9EA2 !default;
 $pink: #fbc6cc !default;
 $pink2: #dfa2a9 !default;
+$pink3:rgb(255, 233, 236) !default;
 $black: #000 !default;
 $white: #fff !default;
 
@@ -13,6 +14,7 @@ $colors: (
     'grey2': $grey2,
     'pink': $pink,
     'pink2': $pink2,
+    'pink3': $pink3,
     'black': $black,
     'white': $white,
 );
@@ -129,6 +131,7 @@ $height: (
     "10" : $h10,
     "-auto" : $h-auto,
 );
+
 
 $hpx-1: 70.83px !default;
 $hpx-2: 230px !default;

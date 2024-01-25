@@ -5,16 +5,16 @@ const purgecss = require('gulp-purgecss');
 
 
 function buildStyles(){
-    return src('sassLib/**/*.scss')
+    return src('sass/**/*.scss')
         .pipe(sass({ outputStyle: 'expanded'}))
-        // .pipe(purgecss({ content: ['html/**/*.html', '*.html'] }))
+        .pipe(purgecss({ content: ['html/**/*.html', '*.html'] }))
         .pipe(dest('css'));
         
 }
 
 
 function watchTask(){
-    watch(['sassLib/**/*.scss', '*.html'], buildStyles)
+    watch(['sass/**/*.scss', '*.html'], buildStyles)
 }
 
 

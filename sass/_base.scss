@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -33,6 +34,10 @@ a {
     
 }
 
+.trnst {
+    transition: all 300ms ease-in-out;
+}
+
 
 
 @include lg {
@@ -40,6 +45,10 @@ a {
         display: flex;
     }
     
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
     .d-flex-row {
         display: flex;
         flex-direction: row;
@@ -154,6 +163,11 @@ a {
     .d-flex-sm {
         display: flex;
     }
+
+    .flex-wrap-sm {
+        flex-wrap: wrap;
+    }
+
     
     .d-flex-row-sm {
         display: flex;
@@ -205,6 +219,10 @@ a {
     .justf-content-btwn-sm {
         justify-content: space-between;
     }
+
+    .algn-cntnt-sps-evnly-sm {
+        align-content: space-evenly;
+    }
     
     .d-block-sm {
         display: block;
@@ -214,7 +232,10 @@ a {
     
     .d-none-sm {
         display: none;
+        
     }
+
+
     
     .algn-itm-center-sm {
         align-items: center;
